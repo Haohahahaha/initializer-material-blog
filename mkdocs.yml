@@ -22,18 +22,21 @@ theme:
     - navigation.top
     - navigation.indexes
     - navigation.expand
+    - navigation.prune # 折叠
     - search.suggest
     - search.highlight
+    - content.code.copy
+    # Instant Loading
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    # Anchor tracking
+    - navigation.tracking
   language: zh
 
 # 这里写目录
 nav:
   - 主页: index.md
-
-plugins:
-  - mermaid2:
-      arguments:
-        theme: light
 
 markdown_extensions:
   # 支持个性化定制
